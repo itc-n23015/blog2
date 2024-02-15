@@ -7,7 +7,7 @@ import {
   faGithub
 } from '@fortawesome/free-brands-svg-icons'
 
-const Social = () => {
+const Social = ({ iconSize = 'initial' }) => {
   return (
     <ul className={styles.list}>
       <li href='https://twitter.com/'>
